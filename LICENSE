@@ -1,0 +1,67 @@
+Copyright (c) 2026, E. Mitikas, C. Chorianopoulos, & E. Zois.
+All rights reserved.
+
+This software is provided for demonstration and reproducibility of the paper:
+Mitikas, E., Chorianopoulos, C., & Zois, E. (2026). Embedding Riemannian Collective Background Knowledge for Offline Signature Verification. Machine Learning and Knowledge Extraction, 8(7), 208. https://doi.org/10.3390/make8070208
+
+--------------------------------------------------------------------------------
+CITATION & EXPERIMENTAL PROTOCOL ACKNOWLEDGMENTS
+--------------------------------------------------------------------------------
+If you use this software, code components, or the experimental protocol, please cite the main paper:
+
+[1] E. Mitikas, C. Chorianopoulos, & E. Zois, "Embedding Riemannian Collective Background Knowledge for Offline Signature Verification," Machine Learning and Knowledge Extraction, vol. 8, no. 7, p. 208, 2026. DOI: 10.3390/make8070208
+
+Should you make use of the suggested experimental protocol, please also refer to the following papers that utilize a similar protocol:
+
+[2] N. Vasilakis, C. Chorianopoulos, & E. N. Zois, "A Riemannian Dichotomizer Approach on Symmetric Positive Definite Manifolds for Offline, Writer-Independent Signature Verification," Applied Sciences, vol. 15, no. 13, p. 7015, 2025. DOI: 10.3390/app15137015
+[3] E. N. Zois, D. Tsourounis, & D. Kalivas, "Similarity Distance Learning on SPD Manifold for Writer Independent Offline Signature Verification," IEEE Transactions on Information Forensics and Security, vol. 19, pp. 1342-1356, 2024. DOI: 10.1109/TIFS.2023.3333681
+[4] A. Giazitzis & E. N. Zois, "Metric meta-learning and intrinsic Riemannian embedding for writer independent offline signature verification," Expert Systems with Applications, vol. 261, p. 125470, 2025. DOI: 10.1016/j.eswa.2024.125470
+[5] A. Giazitzis & E. N. Zois, "SigmML: Metric meta-learning for Writer Independent Offline Signature Verification in the Space of SPD Matrices," 2024 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), pp. 6300-6310, 2024. DOI: 10.1109/WACV57701.2024.00619
+[6] A. Giazitzis, M. Diaz, E. N. Zois, & M. A. Ferrer, "Janus-Faced Handwritten Signature Attack: A Clash Between a Handwritten Signature Duplicator and a Writer Independent Metric Meta-learning Offline Signature Verifier," Proc. ICDAR 2024, Springer Nature Switzerland, pp. 216-232, 2024. DOI: 10.1007/978-3-031-70536-6_13
+
+--------------------------------------------------------------------------------
+THIRD-PARTY COMPONENT NOTICES AND CITATIONS
+--------------------------------------------------------------------------------
+
+1. Manopt (v8.0)
+This software incorporates components from the Manopt toolbox (https://www.manopt.org).
+Citation: Boumal, N., Mishra, B., Absil, P.-A., and Sepulchre, R., "Manopt, a Matlab Toolbox for Optimization on Manifolds", Journal of Machine Learning Research, 15 (2014), 1455-1459.
+
+2. Recursive K-means & Karcher Mean Implementation (`kmeans_KarcherMean`)
+This software incorporates algorithmic implementations for recursive Karcher expectation estimation and K-means over symmetric positive definite (SPD) manifolds.
+Citations:
+- G. Cheng, H. Salehian, B. C. Vemuri, “Efficient Recursive Algorithms for Computing the Mean Diffusion Tensor and Applications to DTI Segmentation”, ECCV 2012.
+- J. Ho, G. Cheng, H. Salehian, B. C. Vemuri, “Recursive Karcher Expectation Estimators And Geometric Law of Large Numbers”, AISTATS 2013.
+- H. Salehian, G. Cheng, B. C. Vemuri, J. Ho, “Recursive Estimation of the Stein Center of SPD Matrices & its Applications”, ICCV 2013.
+
+3. Discriminative Alpha-Beta Divergence for Positive Definite Matrices
+This software incorporates code implementing the discriminative alpha-beta divergence.
+Citation: A. Cherian, P. Stanitsas, M. Harandi, V. Morellas, and N. Papanikolopoulos, "Learning Discriminative Alpha-Beta Divergence for Positive Definite Matrices", ICCV, 2017.
+License Terms: Copyright (c) 2017, Panagiotis Stanitsas and Anoop Cherian. All rights reserved. Distributed under the BSD 3-Clause License (see terms below).
+
+4. Signature Verification Evaluation Framework (`sigver_wiwd`)
+This software incorporates components from the sigver_wiwd toolkit (https://github.com/luizgh/sigver_wiwd) for the evaluation/testing stage.
+Citations:
+- Hafemann, L. G., Sabourin, R., and Oliveira, L. S. "Learning Features for Offline Handwritten Signature Verification using Deep Convolutional Neural Networks", Pattern Recognition, 2017.
+- Hafemann, L. G., Sabourin, R., and Oliveira, L. S. "Fixed-sized representation learning from Offline Handwritten Signatures of different sizes", International Journal on Document Analysis and Recognition (IJDAR), 2018.
+License Terms: Distributed under the BSD 2-Clause License (see terms below). Note that associated trained models may carry non-commercial restrictions due to the underlying GPDS dataset.
+
+--------------------------------------------------------------------------------
+BSD 3-CLAUSE LICENSE TERMS (Discriminative Alpha-Beta Divergence Component)
+--------------------------------------------------------------------------------
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+--------------------------------------------------------------------------------
+BSD 2-CLAUSE LICENSE TERMS (sigver_wiwd Component)
+--------------------------------------------------------------------------------
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+--------------------------------------------------------------------------------
+DISCLAIMER OF WARRANTY
+--------------------------------------------------------------------------------
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
