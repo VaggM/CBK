@@ -18,7 +18,7 @@ function [V, pairAtomIdx, atomIndicator] = updateVsplit(X, B, alpha, beta, k, K,
             for t=1:K
     
                 Bt = B{t};
-                v_pre(t) = AIRM(Xi, Bt);
+                v_pre(t) = ABLD(Xi, Bt, alpha(t), beta(t));
     
             end
 
